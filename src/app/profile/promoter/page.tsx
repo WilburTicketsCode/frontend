@@ -1,8 +1,8 @@
-import Header_TailWind from "./components/header";
+import Nav_Tailwind from "./components/nav";
 
 export default function Home() {
     return (<div>
-      <Header_TailWind/>
+      <Nav_Tailwind/>
       <p>Tela perfil de promoter</p>
     </div>
     )
