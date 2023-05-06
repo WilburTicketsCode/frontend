@@ -18,10 +18,38 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background: linear-gradient(116.82deg, #334166 0%, #BFA8C7 100%);
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+
+
+.w80{
+  width: 80%;
+}
+
+.container {
+  background-color: #E7E7E7;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.child-center{
+  display: flex;
+  justify-content: center;
+}
+
+
+.red{
+  background-color: red;
 }
